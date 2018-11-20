@@ -11,7 +11,7 @@ class Trucks
         @date = DateTime.now
         @RESULTS_QTY = 10
         @FIELDS = 'applicant,location'
-        @HOUR_STRING = "#{DateTime.now.hour}"
+        @HOUR_STRING = "#{DateTime.now.hour}".rjust(2,'0')
         @MINUTE_STRING = "#{DateTime.now.minute}".rjust(2,'0')
         @WEEK_DAY = "#{DateTime.now.cwday}"
         @HOUR_FORMATTED = "\'#{@HOUR_STRING}:#{@MINUTE_STRING}\'"
@@ -83,7 +83,7 @@ while keep_paging
         else
             user_input == 'n'
             keep_paging = false 
-            p "BYE!"
+            p 'BYE!'
             break
         end
     else
@@ -101,7 +101,7 @@ while keep_paging
             num -= 10
             response = load_more(num)
         elsif user_input == "exit"
-            p "BYE!"
+            p 'BYE!'
             keep_paging = false
             break
         end
