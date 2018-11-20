@@ -20,7 +20,8 @@ class Trucks
     end
 
     def trucks_response(offset = 0)
-        self.class.get("#{@query}&$offset=#{offset}").parsed_response
+        query = "#{@query}&$offset=#{offset}"
+        return self.class.get(query).parsed_response
     end 
 
 end 
