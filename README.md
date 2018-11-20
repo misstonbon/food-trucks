@@ -23,6 +23,7 @@ https://github.com/misstonbon/food-trucks.git && cd food-trucks
 gem install httparty
 ```
 More info on httparty [here](https://github.com/jnunemaker/httparty)
+
 3. Install terminal-table gem:
 ```
 gem install terminal-table
