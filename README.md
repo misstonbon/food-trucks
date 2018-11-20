@@ -44,5 +44,9 @@ Furthermore, I'd handle pagination such that it loads more resources from the ap
 I'd check for validity of all input on client and server side and would display a friendly message. 
 There are really endless ways to offer the user more: I could possibly display additional information such as image (if available)  ensure more interactivity (for example, a map or directions, ability to save favorite food trucks and reminders on days when they are on desired street corner, etc.).
 
+*Important* 
+
+Although the code submitted will siffice for the task, application code would have to be organized in separate directories, multiple classes which would have limited access to each other, and all of it would have to be as reusable as possible and easily mantainable. 
+
 
   
