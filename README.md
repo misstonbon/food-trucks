@@ -46,7 +46,7 @@ There are really endless ways to offer the user more: I could possibly display a
 
 *Important* 
 
-Although the code submitted will siffice for the task, application code would have to be organized in separate directories, multiple classes which would have limited access to each other, and all of it would have to be as reusable as possible and easily mantainable. 
+Although the code submitted will suffice for the task, application code would have to be organized in separate directories, multiple classes which would have limited access to each other, and all of it would have to be as reusable as possible and easily mantainable. 
 
 
   
